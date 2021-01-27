@@ -1,3 +1,5 @@
+
+
 #wrapper {
   max-width: 1240px;
 }
@@ -25,9 +27,9 @@ body {
 .oMnieContent {
   float: left;
   text-align: center;
-  font-size: larger;
+  font-size: x-large;
   margin-top: 100px;
-  margin-left: 80px;
+  text-align: left;
 
 }
 
@@ -41,9 +43,9 @@ body {
 
 #navBarList {
   border-radius: 40px;
-  height: 100px;
+  height: 80px;
   width: 1240px;
-  background-color:rgb(160, 94, 7);  
+  background-color:rgb(210, 125, 15);  
 }
 
 .navBarListElement {
@@ -51,17 +53,38 @@ body {
   color: white;
   font-size: 25px;
   display: inline-block;
-  padding: 35.5px;
+  padding: 25.5px;
    
 }
 
 .navBarListElement:hover {
   background-color: white;
-  color: rgb(160, 94, 7);
+  color: rgb(210, 125, 15);
 }
 
 span {
-  color:rgb(160, 94, 7);
+  color:rgb(210, 125, 15);
+
+}
+
+#goTop {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  display: none;
+  border: 2px solid rgb(29, 29, 29);
+  background-color:rgb(210, 125, 15);
+  color: white;
+  font-size: larger;
+  position:fixed;
+  bottom: 20px;
+  right: 100px;
+}
+
+#goTop:hover {
+  border: 2px solid rgb(210, 125, 15);
+  color: rgb(210, 125, 15);
+  background-color: white;
 
 }
 
