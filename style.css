@@ -4,14 +4,43 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   max-width: 1240px;
-  background-color: rgb(59, 59, 59);
+  background-color: rgb(29, 29, 29);
   margin: auto;
   height: 9999vh;
   
-  
+}
+
+.content {
+  color: white;
+}
+
+.oMniePhoto img {
+  float: right;
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  margin-top: 100px;
+}
+
+.oMnieContent {
+  float: left;
+  text-align: center;
+  font-size: larger;
+  margin-top: 100px;
+  margin-left: 80px;
+
+}
+
+.skills h2 {
+  margin-top: 600px;
+}
+
+.prace h2 {
+  margin-top: 1100px;
 }
 
 #navBarList {
+  border-radius: 40px;
   height: 100px;
   width: 1240px;
   background-color:rgb(160, 94, 7);  
@@ -33,5 +62,8 @@ body {
 
 span {
   color:rgb(160, 94, 7);
+
 }
+
+
 
