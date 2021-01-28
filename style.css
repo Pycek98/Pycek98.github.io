@@ -1,15 +1,62 @@
-
-
 #wrapper {
-  max-width: 1240px;
-}
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  max-width: 1240px;
-  background-color: rgb(29, 29, 29);
   margin: auto;
-  height: 9999vh;
+  width: auto;
+  max-width: 1240px;
+  overflow: auto;
+}
+
+body {
+  width: 97%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(29, 29, 29);
+  margin-top: none;
+  margin-left: none;
+  padding: none;
+  height: 5vh;
   
+}
+
+#head {
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+    
+}
+
+.sticky {
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+  width: 97%;
+  margin:auto;
+  
+}
+
+
+.navBarList {
+  height: 80px;
+  width: 100%;
+  background-color:rgb(210, 125, 15);  
+}
+
+.navBarListElement {
+  margin: auto;
+  color: white;
+  font-size: 25px;
+  display: inline-block;
+  padding: 25px;
+   
+}
+
+.navBarListElement:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(210, 125, 15);
+}
+
+span {
+  color:rgb(210, 125, 15);
+
 }
 
 .content {
@@ -21,51 +68,42 @@ body {
   height: 400px;
   width: 400px;
   border-radius: 100%;
-  margin-top: 100px;
+  top: 100px;
 }
 
 .oMnieContent {
-  float: left;
-  text-align: center;
+  width: 800px;
+  height: 400px;
   font-size: x-large;
-  margin-top: 100px;
+  top: 100px;
   text-align: left;
 
 }
 
-.skills h2 {
-  margin-top: 600px;
+.skillsContent {
+  width: 800px;
+  height: 400px;
+  font-size: x-large;
+  float: right; 
+  top: 650px;
+  text-align: left;
+
+ 
+}
+
+.skillsPhoto img {
+  float: left;
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  top: 100px;
 }
 
 .prace h2 {
   margin-top: 1100px;
 }
 
-#navBarList {
-  border-radius: 40px;
-  height: 80px;
-  width: 1240px;
-  background-color:rgb(210, 125, 15);  
-}
 
-.navBarListElement {
-  margin: auto;
-  color: white;
-  font-size: 25px;
-  display: inline-block;
-  padding: 25.5px;
-   
-}
-
-.navBarListElement:hover {
-  background-color: white;
-  color: rgb(210, 125, 15);
-}
-
-span {
-  color:rgb(210, 125, 15);
-
-}
 
 #goTop {
   height: 45px;

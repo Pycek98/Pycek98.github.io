@@ -1,3 +1,5 @@
+
+// GUZIK GO UP
 const topBtn = document.getElementById('goTop');
 
 
@@ -12,7 +14,42 @@ function scrollFunction() {
 function goTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+ 
 };
 
 document.addEventListener('scroll', scrollFunction);
 topBtn.addEventListener('click', goTop);
+
+// GUZIK GO UP KONIEC
+
+//STICKY NAV BAR
+
+
+const navBarLi = document.querySelector("ul");
+
+
+const topBorder = navBarLi.offsetTop;
+
+function stickyNav() {
+  if (window.pageYOffset >= topBorder) {
+    navBarLi.classList.add("sticky")
+    
+  } else {
+    navBarLi.classList.remove("sticky");
+    
+  }
+};
+
+window.addEventListener('scroll', stickyNav);
+
+//STICKY NAV BAR KONIEC
+
+// GUZIKI MENU FUNKCJE//
+
+// O Mnie document.documentElement.scrollTop = 0 //
+// Skills document.documentElement.scrollTop = 400 // 
+
+
+
+
+
