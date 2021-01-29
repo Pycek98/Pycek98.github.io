@@ -1,6 +1,7 @@
 :root {
   /* rgb(49, 147, 156) -> niebieski*/
-  --orange: rgb(210, 125, 15);
+  /* rgb(210, 125, 15) -> pomarańczowy */
+  --orange: rgb(36, 115, 122);
   --gray: rgb(29, 29, 29);
   --footGray: rgb(24, 24, 24);
 }
