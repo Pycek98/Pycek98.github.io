@@ -1,50 +1,55 @@
-#wrapper {
-  margin: auto;
-  width: auto;
-  max-width: 1240px;
-  overflow: auto;
-}
+
 
 body {
-  width: 97%;
+  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(29, 29, 29);
-  margin-top: none;
-  margin-left: none;
-  padding: none;
-  height: 5vh;
+  margin: 0;
   
-}
-
-#head {
-  color: white;
-  margin-top: 25px;
-  margin-bottom: 25px;
     
 }
+.content {
+  margin: 0;
+  padding: 0;
+  width: 1240px;
+  color: white;
+}
+#wrapper {
+  margin: 0;
+  max-width: 1240px;
+  margin: auto;
+}
+
 
 .sticky {
   position: fixed;
-  margin-top: 0;
   top: 0;
-  width: 97%;
-  margin:auto;
-  
+  max-width: 100%;
+  margin-top: auto;
+    
 }
 
+.navBarPlaceHolder {
+  width: 100%;
+  top: 0;
+  height:200px ;
+  margin: 0px;
+}
 
 .navBarList {
+  margin:0px;
+  padding-left: 10%;
   height: 80px;
   width: 100%;
   background-color:rgb(210, 125, 15);  
 }
 
 .navBarListElement {
-  margin: auto;
+  margin-left: 60px;
   color: white;
   font-size: 25px;
   display: inline-block;
-  padding: 25px;
+  padding: 25.5px;
    
 }
 
@@ -59,8 +64,9 @@ span {
 
 }
 
-.content {
-  color: white;
+
+.oMnie {
+  height: 600px;
 }
 
 .oMniePhoto img {
@@ -68,16 +74,18 @@ span {
   height: 400px;
   width: 400px;
   border-radius: 100%;
-  top: 100px;
 }
 
 .oMnieContent {
   width: 800px;
   height: 400px;
   font-size: x-large;
-  top: 100px;
   text-align: left;
 
+}
+
+.skill {
+  height: 600px ;
 }
 
 .skillsContent {
@@ -85,7 +93,6 @@ span {
   height: 400px;
   font-size: x-large;
   float: right; 
-  top: 650px;
   text-align: left;
 
  
@@ -96,11 +103,82 @@ span {
   height: 400px;
   width: 400px;
   border-radius: 100%;
-  top: 100px;
+  
 }
 
-.prace h2 {
-  margin-top: 1100px;
+.prace {
+  font-size: x-large;
+  height: 600px;
+  margin-top: 0;
+  margin-bottom: 200px;
+  padding: 0;
+}
+
+.praceDivs > div {
+  border: 2px dashed white;
+  display: inline-block;
+  height: 450px;
+  width: 350px;
+  margin-left: 25px;
+  margin-right: 25px;
+  
+  
+}
+
+
+div > a {
+  text-decoration: none;
+  color: white;
+  float: left;
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%,50%);
+    
+}
+
+footer {
+  display: inline-block;
+  height: 125px;
+  width: 100%;
+  background-color:rgb(24, 24, 24);
+  margin-bottom: 8px;
+}
+.kontakt {
+  float: left;
+  height: 120px;
+  width: 400px;
+  margin-left: 300px;
+  padding: 0;
+  font-size: large;
+  color: white;
+}
+
+.kontakt p {
+  margin: 5px;
+}
+.kontakt h4 {
+  margin: 10px;
+}
+
+.kontakt2 {
+  float: left;
+  height: 120px;
+  width: 600px;
+  padding: 0;
+  font-size: large;
+  color: white;
+}
+
+.kontakt2 p {
+  margin: 5px;
+}
+.kontakt2 h4 {
+  margin: 10px;
+}
+
+hr {
+  margin: 0;
+  border: solid 1px rgb(210, 125, 15);
 }
 
 
@@ -128,3 +206,32 @@ span {
 
 
 
+
+
+
+/* .praceLewa {
+  border: 2px dashed white;
+  display: inline-block;
+  padding: 23px;
+  height: 450px;
+  width: 350px;
+  margin: 0;
+  
+}
+.praceSrodek {
+  border: 2px dashed white;
+  display: inline-block;
+  padding: 23px;
+  height: 450px;
+  width: 350px;
+  margin: 0;
+}
+.pracePrawa {
+  border: 2px dashed white;
+  display: inline-block;
+  padding: 23px;
+  height: 450px;
+  width: 350px;
+  margin: 0;
+
+} */

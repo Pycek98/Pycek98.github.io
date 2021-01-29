@@ -7,24 +7,20 @@
   <link rel='stylesheet'href='style.css'>
 </head>
 <body>
-<div id='head'>
-  <center><h1>Patryk<span> Kakozwa </span>CV</h1></center>
-</div>
 <button id='goTop'>UP</button>
 
-
-<ul class="navBarList">
-  <li class="navBarListElement">Home</li>
-  <li class="navBarListElement">O Mnie</li>
-  <li class="navBarListElement">Skills</li>
-  <li class="navBarListElement">Prace</li>
-  <li class="navBarListElement">Kontakt</li>
-</ul>
+<div class="navBarPlaceHolder">
+  <ul class="navBarList">
+    <li class="navBarListElement">O mnie</li>
+    <li class="navBarListElement">Skills</li>
+    <li class="navBarListElement">Prace</li>
+    <li class="navBarListElement">Kontakt</li>
+  </ul>
+</div>
 
 
 <div id="wrapper">
   <div class='content'>
-    
     
     <div class="oMnie">
       <div class="oMniePhoto">
@@ -35,10 +31,10 @@
         <p>Nazywam się Patryk i szukam pracy jak Junior <span>front-end</span> developer.<br>Jestem samoukiem i żyję w świecie gdzie nie ma rzeczy niemożliwych,<br>a <span>Power Searching</span> to Twój największy przyjaciel. <br>Szybko się uczę, nie boję się wyzwań i chętnie poznaję nowe <br>technologie. Poza <span>programowaniem</span>, interesują mnie<br>wszelkiego rodzaju formy aktywności fizycznej, poniważ jak wiemy,<br> sport to zdrowie. </p>
       </div>
       
-    </div><br><br>
+    </div>
+        
     
-    
-    <div class="skills">
+    <div class="skill">
       <div class="skillsContent">
         <h2>Skills</h2>
         <p>Od roku zapoznaję się i pracuję z <span>HTML</span>,<span> CSS</span> oraz <span>JavaScript ES6</span>. Ćwiczę i poznaję<br>możliwości języków programowania i znaczników oraz tworzę drobne projekty. <br> Wszystko łączę w <span>Visual Studio Code</span>.
@@ -50,20 +46,48 @@
       <div class="skillsPhoto">
         <img src="IMG/SkillsPhoto.png" alt="skillsPhoto"> <!--Zrob cos z tym zdjeciem... tło rgb(29,29,29), albo same czarne obeysy ikonek-->
       </div>
-    </div>
+    </div><br><br>
     
     
     <div class="prace">
-      <h2>Prace</h2>
-    </div>
-    
+      <div class="praceContent">
+        <center><h2>Prace</h2></center>
+        <center><p>Oto kilka moich skromnych <span>projektów</span> :</p></center>
+      </div>
+      <div class="praceDivs">
+        <div class="praceLewa">
+         <a href="">Praca 1</a>
+        </div>
+       
+        <div class="praceSrodek">
+          <a href="">Praca 2</a>
+        </div>
+       
+        <div class="pracePrawa">
+          <a href="">Praca 3</a>
+        </div>
+      
+      </div>
 
+    </div>
+ 
   </div>
   
 </div>
+  <footer>
+    <hr>
+    <div class='kontakt'>
+      <h4>Kontakt:</h4>
+      <p>Tel: 501 828 531</p>
+      <p>Mail: Patryk.Kakozwa@gmail.com</p>
+    </div>
 
-
-
+    <div class='kontakt2'>
+      <h4>Social Media:</h4>
+      <p> Facebook: https://www.facebook.com/patryk.kakozwa</p>
+      <p>Instagram: https://www.instagram.com/pyc_ek/</p>
+    </div>
+  </footer>
   <script src='main.js'></script>
 </body>
 </html>
