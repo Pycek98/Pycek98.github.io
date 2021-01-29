@@ -46,9 +46,39 @@ window.addEventListener('scroll', stickyNav);
 
 // GUZIKI MENU FUNKCJE//
 
-// O Mnie document.documentElement.scrollTop = 0 //
-// Skills document.documentElement.scrollTop = 400 // 
+const oMnie = document.getElementsByClassName("navBarListElement")[0];
+const skills = document.getElementsByClassName("navBarListElement")[1];
+const prace = document.getElementsByClassName("navBarListElement")[2];
+const kontakt = document.getElementsByClassName("navBarListElement")[3];
 
+function oMnieMenu () {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+};
+
+function skillsMenu () {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 600;
+};
+
+function praceMenu () {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 1300;
+};
+
+function kontaktMenu () {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 1475;
+};
+
+oMnie.addEventListener('click', oMnieMenu);
+skills.addEventListener('click', skillsMenu);
+prace.addEventListener('click', praceMenu);
+kontakt.addEventListener('click', kontaktMenu);
+
+
+
+// GUZIKI MENU FUNKCJE KONIEC//
 
 
 
